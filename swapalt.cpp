@@ -1,5 +1,5 @@
 #include <iostream>
-//PROGRAM TO REVERSE AN ARRAY
+//PROGRAM TO REVERSE ALTERNATE NUMBERS IN AN ARRAY
 
 using namespace std;
 
@@ -12,7 +12,7 @@ int swapalt(int arr[],int size){
 	}	
 }
 int printalt(int arr[],int size){
-	cout<<"The reverse of the given array is [ ";
+	cout<<"The alternate reverse of the given array is [ ";
 	for(int i=0;i<size;i++){
 		cout<<arr[i]<<" ";
 	}
